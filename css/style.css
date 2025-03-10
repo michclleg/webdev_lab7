@@ -1,8 +1,11 @@
 body {
-  background-image: url("/images/moon.jpeg");
+  background-image: url("../images/moon.jpeg");
   text-align: center;
 }
 
 h1{
 	font-size:2.5em;
+}
+table{
+	text-align: center;
 }
