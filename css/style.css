@@ -1,9 +1,12 @@
 body {
   background-image: url("../images/moon.jpeg");
   text-align: center;
+  background-attachment: fixed;
+  background-size:cover;
   object-fit: contain;
   color:white;
   font-family: Garamond, serif;
+  text-shadow: 1px 1px 3px rgba(236,236,236,0.3);
 }
 
 h1{
@@ -15,6 +18,8 @@ table{
 	width:60%;
 	margin:20px auto;
 	border-collapse:collapse;
+	animation: glow 2s infinite alternate;
+	
 }
 th, td{
 	text-align: center;
@@ -31,4 +36,9 @@ img {
 	display: block;
 	margin: 5px auto;
 	border-radius: 10px;
+}
+@keyframes glow{
+	0%{box-shadow: 0 0 5px white;}
+	50%{box-shadow: 0 0 15px white;}
+	100%{box-shadow: 0 0 5px white;}
 }
