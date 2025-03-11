@@ -22,3 +22,10 @@ th, td{
 td{
 	font-size:16px;
 }
+
+img{
+	width:50px;
+	height: auto;
+	display: block;
+	margin: 5px auto;
+}
