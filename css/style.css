@@ -1,6 +1,7 @@
 body {
   background-image: url("../images/moon.jpeg");
   text-align: center;
+  object-fit: contain;
 }
 
 h1{
